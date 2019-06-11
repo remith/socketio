@@ -1,0 +1,27 @@
+{
+  "name": "socketio-demo",
+  "version": "1.0.0",
+  "description": "Sample application to demonstarte the use of socket.io with nodejs and deployment with heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "10.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remith/socketio.git"
+  },
+  "author": "remith ravindran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remith/socketio/issues"
+  },
+  "homepage": "https://github.com/remith/socketio#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "socket.io": "2.2.0"
+  }
+}
